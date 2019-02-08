@@ -10,10 +10,11 @@ array.unshift (string)
 end 
 
 def using_pop (array)
-  
   array.pop
- 
+  
 end
+  @greatest_hits = ["a","b","c"]
+  @new_array = using_pop(@greatest_hits)
 
 def pop_with_args (array,string)
   array = ["Hozier","Ariana","Usher"]
