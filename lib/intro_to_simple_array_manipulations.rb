@@ -32,10 +32,10 @@ def shift_with_args (array)
 end
 
 def using_concat (array)
-  array = ["raindrops on roses","whiskers on kittens","mario kart","flatiron school"]
+  array = ["raindrops on roses"]
+  string = ["whiskers on kittens","mario kart","flatiron school"]
   
-  
-  array.concat
+  array.concat(string) 
 
   
 end
