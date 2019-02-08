@@ -31,7 +31,7 @@ def shift_with_args (array)
   array.shift(2)
 end
 
-def using_concat (array,string)
+def using_concat (array)
   array = ["raindrops on roses"]
   string = ["whiskers on kittens","mario kart","flatiron school"]
   
