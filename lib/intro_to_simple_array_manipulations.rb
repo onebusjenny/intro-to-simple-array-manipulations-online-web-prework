@@ -17,7 +17,7 @@ end
 
 def pop_with_args (array)
   array = ["Stable Boy","Sandor Clegane","Stable Boy","Sandor Clegane"]
-  array.pop
+  array.pop(2)
   
 end
 
