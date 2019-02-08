@@ -57,10 +57,10 @@ def using_flatten (array)
   array.flatten
 end
 
-def using_delete (array,integer)
+def using_delete (array)
   array = ["Josh", "Sophie", "Amanda"]
-  integer = ["Josh","Sophie","Amanda"]
-  array.delete (integer)
+ 
+  array.delete
 end
 
 def using_delete_at (array,integer)
