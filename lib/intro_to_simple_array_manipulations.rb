@@ -16,7 +16,7 @@ end
 
 
 def pop_with_args (array)
-  array = ["Hozier","Ariana","Usher"]
+  array = ["Hozier","Ariana","Stable Boy","Sandor Clegane"]
   array.pop 
   
 end
@@ -58,7 +58,7 @@ def using_flatten (array)
 end
 
 def using_delete (array,integer)
-  array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  array = ["Josh", "Sophie", "Amanda"]
   integer = ["Josh","Sophie","Amanda"]
   array.delete (integer)
 end
