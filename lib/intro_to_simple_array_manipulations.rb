@@ -16,16 +16,15 @@ end
   @greatest_hits = ["a","b","c"]
   @new_array = using_pop(@greatest_hits)
 
-def pop_with_args (array,string)
+def pop_with_args (array)
   array = ["Hozier","Ariana","Usher"]
-  string = ["Usher","Ariana"]
-  array.pop (0 and 1)
+  array.pop 
   
 end
 
 def using_shift (array)
   array = ["Lagos","hello"]
-  lagos = array.shift[0]
+  lagos = array.shift
 end
 
 def shift_with_args (array)
