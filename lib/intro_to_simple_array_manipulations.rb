@@ -25,7 +25,7 @@ end
 
 def using_shift (array)
   array = ["Lagos","hello"]
-  array.shift[7]
+  lagos = array.shift
 end
 
 def shift_with_args (array)
