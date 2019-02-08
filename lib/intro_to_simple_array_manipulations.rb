@@ -32,7 +32,7 @@ end
 
 def using_concat (array,string)
   array = ["raindrops on roses"]
-  string = ["whiskers on kittens","mario kart","flatiron school"]
+  string = ["whiskers on kittens","mario kart","flatiron school","hello"]
   
   array.concat(string) 
 
